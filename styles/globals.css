@@ -1,5 +1,8 @@
 @tailwind base;
 
+body {
+  background-color: #4d65f1;
+}
 .directory-divide-y > li:not(:last-child):after {
   content: '';
   display: block;

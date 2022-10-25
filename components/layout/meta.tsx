@@ -1,11 +1,11 @@
 import Head from 'next/head';
 
 export const defaultMetaProps = {
-  title: 'MongoDB Starter Kit',
+  title: '100Devs Directory',
   description:
-    'MongoDB Starter Kit built with Next.js, Vercel, and MongoDB Atlas.',
+    'A searchable directory of software engineers who are part of the 100Devs agency.',
   ogImage: `https://assets.vercel.com/image/upload/v1654626375/twitter-cards/mongo-integration-starter.png`,
-  ogUrl: 'https://mongodb.vercel.app'
+  ogUrl: 'https://100devsdirectory.vercel.app/'
 };
 
 export interface MetaProps {
@@ -38,8 +38,8 @@ export default function Meta({ props }: { props: MetaProps }) {
       <meta property="og:type" content="website" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@Vercel" />
-      <meta name="twitter:creator" content="@StevenTey" />
+      <meta name="twitter:site" content="@leonnoel" />
+      <meta name="twitter:creator" content="@diathekez" />
       <meta name="twitter:title" content={props.title} />
       <meta name="twitter:description" content={props.description} />
       <meta name="twitter:image" content={props.ogImage} />
